@@ -11,33 +11,37 @@ body {
     max-width: 980px;
     margin:auto;
 }
-
+header {
+    display: flex;
+    justify-content: space-around;
+}
 .logo {
+    display: flex;
     font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
     text-align: center;
 }
-nav {
-    justify-content: space-around;
-    flex: 1;
-    display: none;
+li {
+    display: inline-block;
 }
-a {
+
+header li > a {
     display: block;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
     text-decoration: none;
+    font-size: 24px;
+}
+
+ body > header > nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+body > header > nav > a {
+    display: block;
+    flex: 1;
+    text-decoration: none;
+    font-size: 20px;
     color:  var(--main-color);
     padding: 5px;
 }
-@media (min-width: 769px){
-    nav {
-        display: flex;
-        align-items: center;
-    }
-}
-img{
-    
-    width: 100%;
-}
-
-
-
