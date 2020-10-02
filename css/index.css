@@ -1,65 +1,225 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
-
-
-:root {
+ :root {
     --main-color: #8B259D;
     --accent-color: black;
+    --section-color: #c4c4c4;
     font-family: 'Work Sans', sans-serif;
-     scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
+
 body {
     max-width: 980px;
-    margin:auto;
+    margin: auto;
 }
+
 header {
-    display: flex;
-    justify-content: space-around;
+    color: var(--main-color);
 }
-.logo {
+
+header .logo {
     display: flex;
+    font-size: 1.5rem;
     font-family: 'Work Sans', sans-serif;
-    font-size: 2rem;
     text-align: center;
 }
-li {
-    display: inline-block;
+
+header .logo img {
+    width: 120px;
+    height: 120px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-header li > a {
-    display: block;
-    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
-    text-decoration: none;
-    font-size: 24px;
-}
-
- body > header > nav {
+header nav {
     display: flex;
     justify-content: space-around;
+    flex: 1;
 }
 
-body > header > nav > a {
+nav a {
     display: block;
-    flex: 1;
     text-decoration: none;
-    font-size: 20px;
-    color:  var(--main-color);
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--main-color);
     padding: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) { 
-    body{
+
+nav a:hover {
+    cursor: pointer;
+}
+
+header .baner img {
+    max-width: 980px;
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+/* TODO: */
+
+.guote,
+.guote p {
+    font-size: 8px;
+    color: #b3b3b3;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.guote h2 {
+    overflow-wrap: break-word;
+    max-width: calc(100% - 60px);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.travels .travels-items,
+.guide .guide-items,
+.gallery .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+section h2,
+h3,
+p {
+    text-align: center;
+}
+
+section h2 {
+    text-align: center;
+    display: block;
+    background-color: var(--section-color);
+    margin: 0px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.travels .travels-items article img,
+.travels .travels-items article h3,
+.guide .guide-items article img,
+.guide .guide-items article h3,
+.gallery .images img {
+    width: 310px;
+}
+
+.guide .guide-items a,
+.travels .travels-items a {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.navigation {
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 40px;
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation .nav-in-active {
+    display: flex;
+    width: 19px;
+    height: 19px;
+    background: url('/images/navActive.png');
+}
+
+.navigation .nav-in-active:hover {
+    background-position: -22px 0;
+}
+
+.navigation .nav-active {
+    padding: 0;
+    width: 19px;
+    height: 19px;
+    display: flex;
+    background: url('/images/navActive.png');
+    background-position: -22px 0;
+}
+
+footer .follow-me {
+    background: url('/images/follow-me.png');
+    background-position: center;
+    max-width: 980px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .follow-me h2 {
+    font-size: 1.5rem;
+}
+
+footer .ask-me {
+    background: url('/images/ask-me.png');
+    background-position: center;
+    min-height: 499px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .ask-me .ask-me-form {
+    min-width: 250px;
+    max-width: 400px;
+    ;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .ask-me .ask-me-form h2 {
+    text-align: center;
+}
+
+.ask-me .ask-me-form label {
+    width: 80%;
+    display: grid;
+    margin: auto;
+    padding: 10px;
+}
+
+.ask-me .ask-me-form input {
+    padding: 10px;
+}
+
+.ask-me .ask-me-form input[type="submit"] {
+    width: 80%;
+    display: grid;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    background: var(--section-color);
+    color: white;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    body {
         padding: 20px;
     }
     .logo {
         font-size: 10px;
         display: flex;
     }
-    .logo h1{
+    .logo h1 {
         display: flex;
         margin-left: auto;
     }
-    .logo img{
+    .logo img {
         width: 80px;
         height: 80px;
         display: flex;
@@ -67,24 +227,24 @@ and (max-device-width : 667px) {
         margin-top: auto;
         margin-bottom: auto;
     }
-    header{
+    header {
         display: block;
     }
-    body > header > nav > a{
+    body>header>nav>a {
         font-size: 12px;
         text-align: center;
-    } 
+    }
     .baner img {
         width: 100%;
     }
-    .guote{
-        font-size: 8px;
-        background: #b3b3b3;
+    section {
+        display: block;
     }
-    .guote h2, .guote p{
-        overflow-wrap: break-word;
-        max-width: calc(100% - 60px);
-        padding-left: 10px;
-        padding-right: 10px;
+    section h2 {
+        text-align: center;
     }
+}
+
+section h2 {
+    text-align: center;
 }
