@@ -1,0 +1,57 @@
+{
+    "travels": [{
+        "label": "Pakoštane",
+        "description": "The first trip in September 2014 and first impressions of Croatia. And also a day in Budapest, a picnic on Lake Balaton, a trip to Bosnia and Herzegovina!",
+        "imageUrl": "images/pakoshtane.png",
+        "pageUrl": "#"
+    }, {
+        "label": "Banjole 2020",
+        "description": "Croatia and quarantine restrictions. Travel with parents. Pula and Rovinj, the smallest city in Europe Hum, the city of Motovun, Porec, Cape Kamenyak, Plitvice Lakes.",
+        "imageUrl": "images/banjole-2020.png",
+        "pageUrl": "#"
+    }, {
+        "label": "Banjole 2018",
+        "description": "Absolutely unplanned vacation and the charming beach of Centinera, the amphitheater of Pula, the romantic Rovinj. Travel to Venice and Padua. Slovenian Alps, Lake Bled and Lake Bohinj",
+        "imageUrl": "images/banjole-2018.png",
+        "pageUrl": "#"
+    }, {
+        "label": "Primošten",
+        "description": "July 2016. Central Croatia. Plitvice Lakes, Split and Sibenik, Trogir, incredible mountain views on the way to Brela. And also a night near Predjama Castle in Slovenia, with the family in Venice.",
+        "imageUrl": "images/primoshten.png",
+        "pageUrl": "#"
+    }, {
+        "label": "Brela",
+        "description": "Middle Dalmatia 2017. How 2 weeks before the holiday broke the car, Makarska and Baska Voda, a trip to the island of Brac, rafting in Omis",
+        "imageUrl": "images/brela.png",
+        "pageUrl": "#"
+    }],
+    "guides": [{
+            "label": "The loveliest beaches of Riviera Makarska",
+            "description": "Riviera Makarska is perfect for enjoying everything summer brings along thanks to its long pebble and sand beaches and lots of sunny hours. Besides the biggest city of Makarska, little tourist towns like Brela, Baška Voda, Igrane and Tučepi are favourites in the Riviera. And especially so among families with children and everyone looking for their place under the summer sun. But Riviera Makarska also hides beautiful naturist and isolated beaches. Take a trip to the zone of sun and sea and read about the five loveliest beaches we have picked out for you",
+            "imageUrl": "images/makarska-riviera-beaches.png",
+            "pageUrl": "#"
+        },
+        {
+            "label": "Game of Thrones 2019. A guide to shooting locations",
+            "description": "In order to entertain fans around the world as they wait patiently for the final season, Game of Thrones producers has decided to create an interesting campaign where 7 locations around the world have been chosen where Iron Throne was set up. Every week through social networks, fans tried to guess the country where the throne was set. Many tourists, on the other hand, looked for another way of entertainment before the start of the spectacle and decided to go to King's Landing (Dubrovnik) or Klis. It is well known that Dubrovnik, Klis, Trogir and many other places in Croatia played an important role in the series. Because of their beauty and preservation, historical sites which are at the same time the main site of the series, are one of the most visited destinations in Croatia. Interestingly, it was not necessary to use a lot of special effects to turn Dubrovnik into King's Landing. Many of the locations in Croatia will, thanks to the final season of Game of Thrones, become more desirable for many tourists this summer, so we decided to compile a list of locations where one of the most important scenes was played.",
+            "imageUrl": "images/dubrovnik-fortress.png",
+            "pageUrl": "#"
+        },
+        {
+            "label": "Maraschino - liqueur that smells like Zadar",
+            "description": "One of the most interesting elements of vacation is getting to know the local culture and customs. Every place that you visit will enrich your experience with stories about its history and its culture, and also amaze you with its gastronomy and authentic drinks. When you visit Zadar or its surrounding area, be sure to try the authentic local liqueur - Maraschino. It is an original liquer that is made of matured cherry fruit of special kind, authentic in Dalmatia, called maraska. It is specific by its characteristic sweet taste, which has been reserved in the past for a small group of privileged people who were enjoying it for its medicinal properties.",
+            "imageUrl": "images/cherries.png",
+            "pageUrl": "#"
+        }
+    ],
+    "gallery": [{
+        "label": "Arrow pointing to Croatia",
+        "imageUrl": "images/arrow.png"
+    }, {
+        "label": "Bridges on Plitvice lakes",
+        "imageUrl": "images/plitvice.png"
+    }, {
+        "label": "Old town of Zadar",
+        "imageUrl": "images/zadar.png"
+    }]
+}

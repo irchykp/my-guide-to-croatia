@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Iryna's guide to Croatia</title>
     <link rel="stylesheet" href="css/index.css">
-    <link rel="shortuct icon" href="img/lavender-wreath.png">
+    <link rel="shortuct icon" href="images/lavender-wreath.png">
 </head>
 
 <body>
@@ -17,15 +17,14 @@
                 <img src="images/lavender-wreath.png" alt="Wreath of lavender flowers">
             </div>
             <div class="navigation">
-                <a href="travels.html">About my travels</a>
-                <a href="guide.html">Guide</a>
-                <a href="index.html#ask">Contacts</a>
+                <a href="#myTravels">My travels</a>
+                <a href="#guideToCroatia">Guide</a>
+                <a href="#askMeAnything">Contacts</a>
             </div>
         </nav>
         <div class="baner">
             <img src="images/funny-expression.png" alt="sitting at the table with a funny expression">
         </div>
-
         <div class="guote">
             <h2><em>"To better understand the new country, you need to smell it."</em></h2>
             <p>Rudyard Kiplins</p>
@@ -34,91 +33,59 @@
 
     <main>
         <section class="travels">
-            <h2>About my travels</h2>
+            <h2 id="myTravels">My travels</h2>
             <div class="travels-items">
-                <article class=" pakoshtane ">
-                    <img src="images/pakoshtane.png" alt="old town and pier ">
-                    <h3>Pakoštane</h3>
-                </article>
-
-                <article class="banjole-2020 ">
-                    <img src="images/banjole-2020.png" alt="tree on the beach ">
-                    <h3>Banjole 2020</h3>
-                </article>
-
-                <article class="banjole-2018 ">
-                    <img src="images/banjole-2018.png" alt="sunset in Rovinj ">
-                    <h3>Banjole 2018</h3>
-                </article>
-                <a href="travels.html ">Read more</a>
+                <!-- travel-items -->
             </div>
+            <a class="read-more travels-more">Read more</a>
         </section>
         <section class="guide">
-            <h2>Guide</h2>
+            <h2 id="guideToCroatia">Guide</h2>
             <div class="guide-items">
-                <article class="beaches ">
-                    <img src="images/makarska-riviera-beaches.png" alt="view of Brela beach ">
-                    <h3>The loveliest beaches of Riviera Makarska</h3>
-
-                </article>
-                <article class="game-of-thrones ">
-                    <img src="images/dubrovnik-fortress.png" alt="view of the fortress in Dubrovnik ">
-                    <h3>Game of Thrones 2019. A guide to shooting locations</h3>
-
-                </article>
-                <article class="maraschino ">
-                    <img src="images/cherries.png" alt="cherries ">
-                    <h3>Maraschino - liqueur that smells like Zadar</h3>
-
-                </article>
-                <a href="guide.html ">Read more</a>
+                <!-- guide-items -->
             </div>
+
         </section>
         <section class="gallery">
             <h2>Gallery</h2>
-            <div class="images">
-                <img src="images/arrow.png" alt="arrow pointing to Croatia ">
-                <img src="images/plitvice.png" alt="bridges on Plitvice lakes ">
-                <img src="images/zadar.png" alt="old town of Zadar ">
+            <div class="gallery-images">
+                <!-- gallery-items -->
             </div>
-            <div class="navigation">
-                <a href="# " class="nav-in-active "></a>
-                <a href="# " class="nav-in-active "></a>
-                <a href="# " class="nav-active "></a>
-                <a href="# " class="nav-in-active "></a>
-            </div>
+
         </section>
     </main>
+
     <footer>
         <div class="follow-me">
-            <h2>Follow me</h2>
-            <div class="social-network ">
-                <a href="# " class="icon "><img src="images/facebook.png " alt="facebook "></a>
-                <a href="# " class="icon "><img src="images/instagram.png " alt="instagram "></a>
-                <a href="# " class="icon "><img src="images/youtube.png " alt="youtube "></a>
+            <div class="center-f-m">
+                <h2>Follow me</h2>
+                <div class="social-network">
+                    <a href="#" class="icon"><img src="images/facebook.png" alt="facebook"></a>
+                    <a href="#" class="icon"><img src="images/instagram.png" alt="instagram"></a>
+                    <a href="#" class="icon"><img src="images/youtube.png" alt="youtube"></a>
+                </div>
             </div>
         </div>
-
         <div class="ask-me">
-            <div class=ask-me-form>
-                <h2>Ask me <br> anything!</h2>
+            <div class="ask-me-form">
+                <h2 id="askMeAnything">Ask me <br> anything!</h2>
                 <p>Write any questions about my travels. Fill out the form below or email me at petryshyn.iryna@gmail.com</p>
-                <form action="ask-me " method="POST ">
+                <form action="ask-me" method="POST">
                     <label>
-                        <input type="text" placeholder="Name*" required>
+                        <input type="text" placeholder="Name*" required class="ask-name">
                     </label>
                     <label>
-                        <input type="email" placeholder="E-mail*" required>
+                        <input type="email" placeholder="E-mail*" required class="ask-email">
                     </label>
                     <label>
-                        <input type="text" placeholder="You message" required>
+                        <input type="text" placeholder="You message" required class="ask-message">
                     </label>
-                    <input type="submit" value="Submit ">
+                    <input type="submit" value="Submit" class="ask-submit">
                 </form>
             </div>
         </div>
-        </div>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
